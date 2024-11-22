@@ -3,4 +3,5 @@
     <string name="app_name">cs361assignment3</string>
     <string name="titlelayout">เขย่ามัน</string>
     <string name="dialogtitle">เบอร์ที่สุ่มได้</string>
+    <string name="predictions" translatable="false">คำทำนาย</string>
 </resources>

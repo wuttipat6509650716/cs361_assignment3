@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">cs361assignment3</string>
     <string name="titlelayout">Shake it</string>
-
     <string name="dialogtitle">Generate a random number</string>
+    <string name="predictions" translatable="false">Predictions</string>
 </resources>
