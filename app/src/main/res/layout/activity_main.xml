@@ -8,32 +8,50 @@
     android:layout_marginTop="10dp"
     android:baselineAligned="false"
     android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/headlayout"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:text="@string/titlelayout"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/luckynumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+        <TextView
+            android:id="@+id/headlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:text="@string/titlelayout"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/predictions"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:gravity="center|clip_vertical|top"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/luckynumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <TextView
+            android:id="@+id/predictions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center|clip_vertical|top"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="20sp" />
+    </LinearLayout>
 
 </LinearLayout>
